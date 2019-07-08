@@ -20,6 +20,7 @@
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PKc-jj-Loh">
                                 <rect key="frame" x="30" y="209" width="354" height="30"/>
+                                <accessibility key="accessibilityConfiguration" identifier="textField"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
@@ -29,6 +30,7 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5HP-8Q-SSb">
                                 <rect key="frame" x="126.5" y="269" width="161" height="30"/>
+                                <accessibility key="accessibilityConfiguration" identifier="button"/>
                                 <state key="normal" title="TextField -&gt; NSNumber"/>
                                 <connections>
                                     <action selector="buttonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nnE-tC-E8X"/>
@@ -36,6 +38,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mSp-pR-UCE">
                                 <rect key="frame" x="30" y="329" width="354" height="21"/>
+                                <accessibility key="accessibilityConfiguration" identifier="label"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>

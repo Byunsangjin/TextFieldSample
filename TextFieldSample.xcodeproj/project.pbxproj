@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA4630D622D338F000F1D54D /* TextFieldSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4630D522D338F000F1D54D /* TextFieldSampleUITests.m */; };
 		BA73E48D22D2C70D00F93CEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA73E48C22D2C70D00F93CEC /* AppDelegate.m */; };
 		BA73E49022D2C70D00F93CEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA73E48F22D2C70D00F93CEC /* ViewController.m */; };
 		BA73E49322D2C70D00F93CEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA73E49122D2C70D00F93CEC /* Main.storyboard */; };
@@ -15,7 +16,20 @@
 		BA73E49B22D2C70F00F93CEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA73E49A22D2C70F00F93CEC /* main.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		BA4630D822D338F000F1D54D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA73E48022D2C70D00F93CEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA73E48722D2C70D00F93CEC;
+			remoteInfo = TextFieldSample;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		BA4630D322D338F000F1D54D /* TextFieldSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4630D522D338F000F1D54D /* TextFieldSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldSampleUITests.m; sourceTree = "<group>"; };
+		BA4630D722D338F000F1D54D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA73E48822D2C70D00F93CEC /* TextFieldSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA73E48B22D2C70D00F93CEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA73E48C22D2C70D00F93CEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +43,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BA4630D022D338F000F1D54D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BA73E48522D2C70D00F93CEC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -39,10 +60,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA4630D422D338F000F1D54D /* TextFieldSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA4630D522D338F000F1D54D /* TextFieldSampleUITests.m */,
+				BA4630D722D338F000F1D54D /* Info.plist */,
+			);
+			path = TextFieldSampleUITests;
+			sourceTree = "<group>";
+		};
 		BA73E47F22D2C70D00F93CEC = {
 			isa = PBXGroup;
 			children = (
 				BA73E48A22D2C70D00F93CEC /* TextFieldSample */,
+				BA4630D422D338F000F1D54D /* TextFieldSampleUITests */,
 				BA73E48922D2C70D00F93CEC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				BA73E48822D2C70D00F93CEC /* TextFieldSample.app */,
+				BA4630D322D338F000F1D54D /* TextFieldSampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,6 +106,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BA4630D222D338F000F1D54D /* TextFieldSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4630DC22D338F000F1D54D /* Build configuration list for PBXNativeTarget "TextFieldSampleUITests" */;
+			buildPhases = (
+				BA4630CF22D338F000F1D54D /* Sources */,
+				BA4630D022D338F000F1D54D /* Frameworks */,
+				BA4630D122D338F000F1D54D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA4630D922D338F000F1D54D /* PBXTargetDependency */,
+			);
+			name = TextFieldSampleUITests;
+			productName = TextFieldSampleUITests;
+			productReference = BA4630D322D338F000F1D54D /* TextFieldSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		BA73E48722D2C70D00F93CEC /* TextFieldSample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA73E49E22D2C70F00F93CEC /* Build configuration list for PBXNativeTarget "TextFieldSample" */;
@@ -100,6 +150,10 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Byunsangjin;
 				TargetAttributes = {
+					BA4630D222D338F000F1D54D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = BA73E48722D2C70D00F93CEC;
+					};
 					BA73E48722D2C70D00F93CEC = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -119,11 +173,19 @@
 			projectRoot = "";
 			targets = (
 				BA73E48722D2C70D00F93CEC /* TextFieldSample */,
+				BA4630D222D338F000F1D54D /* TextFieldSampleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BA4630D122D338F000F1D54D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BA73E48622D2C70D00F93CEC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -137,6 +199,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BA4630CF22D338F000F1D54D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4630D622D338F000F1D54D /* TextFieldSampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BA73E48422D2C70D00F93CEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -148,6 +218,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA4630D922D338F000F1D54D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA73E48722D2C70D00F93CEC /* TextFieldSample */;
+			targetProxy = BA4630D822D338F000F1D54D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BA73E49122D2C70D00F93CEC /* Main.storyboard */ = {
@@ -169,6 +247,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		BA4630DA22D338F000F1D54D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GN3PLAKW34;
+				INFOPLIST_FILE = TextFieldSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dave.s.byun.TextFieldSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TextFieldSample;
+			};
+			name = Debug;
+		};
+		BA4630DB22D338F000F1D54D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GN3PLAKW34;
+				INFOPLIST_FILE = TextFieldSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dave.s.byun.TextFieldSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TextFieldSample;
+			};
+			name = Release;
+		};
 		BA73E49C22D2C70F00F93CEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -318,6 +432,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BA4630DC22D338F000F1D54D /* Build configuration list for PBXNativeTarget "TextFieldSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4630DA22D338F000F1D54D /* Debug */,
+				BA4630DB22D338F000F1D54D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BA73E48322D2C70D00F93CEC /* Build configuration list for PBXProject "TextFieldSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
